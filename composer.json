@@ -3,7 +3,7 @@
     "description": "A package to fix arabic numbers input",
     "license": "waqf",
     "type": "package",
-    "version":"0.0.1",
+    "version":"1.0.0",
     "keywords": ["laravel","arabic","arabic Numeric"],
     "authors": [
         {
