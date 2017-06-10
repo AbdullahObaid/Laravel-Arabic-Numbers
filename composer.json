@@ -1,0 +1,27 @@
+{
+    "name": "abdullahobaid/arabicnumbers",
+    "description": "A package to fix arabic numbers input",
+    "license": "waqf",
+    "type": "package",
+    "version":"1.0.0",
+    "keywords": ["laravel","arabic","arabic Numeric"],
+    "authors": [
+        {
+            "name": "Abdullah Obaid",
+            "email": "imobde3@gmail.com",
+            "homepage": "http://safhty.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+       "psr-4": {
+            "abdullahobaid\\arabicnumbers\\": "src/"
+        }
+ 
+      },
+      "minimum-stability": "dev"
+}
+
