@@ -1,11 +1,6 @@
 # Description
 
-NOT READY YET
-
-
 A Laraval Package to convert Arabic numerals (٠	١	٢	٣	٤	٥	٦	٧	٨	٩) from any user input to a numeric value.
-
-
 
 ## Table of Contents
 
