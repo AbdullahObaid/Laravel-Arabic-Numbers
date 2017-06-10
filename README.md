@@ -11,7 +11,6 @@ A Laraval Package to convert Arabic numerals (٠	١	٢	٣	٤	٥	٦	٧	٨	٩) fro
 
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [License](#License)
 - [Essentials](#essentials)
 
@@ -22,6 +21,9 @@ A Laraval Package to convert Arabic numerals (٠	١	٢	٣	٤	٥	٦	٧	٨	٩) fro
 
 Install with composer by running  `composer require abdullahobaid/arabicnumbers:dev-master`  
 Composer will download and install the package.
+
+That's it ! now any user input will go through a custom middleware to replace any arabic numerals to its numeric value
+
 
 ## License
 

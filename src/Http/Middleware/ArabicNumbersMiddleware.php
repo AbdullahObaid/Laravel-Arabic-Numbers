@@ -4,7 +4,7 @@ namespace AbdullahObaid\ArabicNumbers\Http\Middleware;
 
 use Closure;
 
-class ArabicNumbers
+class ArabicNumbersMiddleware
 {
     /**
      * @var array

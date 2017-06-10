@@ -16,7 +16,7 @@ class ArabicNumbersProvider extends ServiceProvider
         app('router')->group($this->middlewareGroupExists('web')
             ? ['middleware' => 'web']
             : [], function () {
-                require __DIR__ . '/../../routes/web.php';
+               '/../../routes/web.php';
             });
     }
 
