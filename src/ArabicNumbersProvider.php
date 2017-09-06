@@ -28,7 +28,7 @@ class ArabicNumbersProvider extends ServiceProvider
     public function register()
     {
        
-        app('Illuminate\Contracts\Http\Kernel')->pushMiddleware('\AbdullahObaid\ArabicNumbers\Http\Middleware\ArabicNumbersMiddleware');
+        app('Illuminate\Contracts\Http\Kernel')->pushMiddleware('\abdullahobaid\arabicnumbers\Http\Middleware\ArabicNumbersMiddleware');
     }
 	
 	   private function middlewareGroupExists(string $group) : bool
