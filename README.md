@@ -17,9 +17,6 @@ A Laraval Package to convert Arabic numerals (٠	١	٢	٣	٤	٥	٦	٧	٨	٩) fro
 Install with composer by running  `composer require abdullahobaid/arabicnumbers:dev-master`  
 Composer will download and install the package.
 
-## For Laravel 5.4 and older ONLY
-Open `Confing/app.php` Add the package service provider `abdullahobaid\arabicnumbers\ArabicNumbersProvider::class,`
-
 ## That's it :)
 That's it ! now any user input will go through a custom middleware to replace any arabic numerals to its numeric value
 
